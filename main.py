@@ -43,7 +43,7 @@ class InstagramBot():
 
     def localizar(self):
         driver = self.driver
-        driver.get('https://www.instagram.com/fratel.l/saved/?hl=pt-br')
+        driver.get(f'https://www.instagram.com/{self.username}/saved/?hl=pt-br')
         sleep(3)
 
         # Clica na primeira foto.
